@@ -1,0 +1,106 @@
+/* CSS */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin:0;padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;
+}
+
+ol, ul{list-style:none;}
+:focus{outline:0;} ins{text-decoration:none;} del{text-decoration:line-through;}
+table{border-collapse:collapse; border-spacing:0;}
+
+body {
+  background-color: white;
+  font-size:16pt;
+  /*font-family: 'Roboto Mono', ;*/
+  font-family: monospace, verdana;
+  position:fixed;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+}
+
+table{
+  width:100%;
+  text-align: center;
+}
+
+td,input{
+  font-size:16pt;
+  margin-top:10px;
+  color: black;
+}
+
+input{
+  margin-bottom:22%;
+  margin-top:8%;
+  margin-left:5px;
+  width:235px;
+  background-color: white !important;
+  color: black !important;
+}
+
+.colors{
+  padding-bottom:100%;
+  padding-top:2%;
+}
+
+.hexText{
+  font-size: 10pt;
+  padding-bottom:4px;
+  background-color:white;
+  color:white;
+}
+
+.hash:hover{
+  cursor:default;
+  height:100%;
+}
+
+#clipboard{
+  position: absolute;
+  left:0;
+  bottom:0;
+  padding-left:10px;
+  padding-bottom: 5px;
+  padding-top:5px;
+  background: transparent;
+  color:black;
+  width:100%;
+  z-index: 50;
+}
+
+#clipboard:hover{
+  cursor:pointer;
+}
+
+#spectrum:hover{
+  cursor:url("gtk.gif"),pointer;
+}
+
+#octocat{
+  position: absolute;
+  right:0;
+  bottom:0;
+  padding-right: 5px;
+  z-index: 100;
+  padding-left: 6px;
+  padding-top: 2px;
+  border-radius: 2px;
+}
+
+#octocat:hover{
+  cursor: url("mg.gif"),help;
+}
+
+#rgbTempField{
+  font-size: 5pt;
+  font-family: verdana, monospace;
+  color: white !important;
+  background-color: white !important;
+  border:none;
+  position: absolute;
+  left:0;
+  top:0;
+  margin:0;
+  padding:0;
+}

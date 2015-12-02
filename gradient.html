@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="jscolor-2.0.4/jscolor.js"></script>
+<script src="colorScale.js"></script>
+</head>
+<body>
+  <input id="rgbTempField" readonly></input>
+  <table>
+  <tr>
+  <td><span id='octothorp1' class="hash"><b>#</b></span><input id="hex1"
+    class="jscolor" onclick="window.hex1Focus = true;"
+    spellcheck="false" placeholder="Start Hex Color"/></td>
+  <td><span id='octothorp2' class="hash"><b>#</b></span><input id="hex2"
+    class="jscolor" onclick="window.hex1Focus = false;"
+    spellcheck="false" placeholder="End Hex Color" /></td>
+</tr>
+</table>
+<table>
+  <tr id="spectrumHex"></tr>
+  <tr id="spectrum"></tr>
+</table>
+<div id='clipboard' style="background-color:rgba(0, 0, 0, 0.2);">Copy to clipboard</div>
+<a href="https://github.com/jzwood" target="_blank">
+<image id="octocat" src="octocat.ico" style="background-color:rgba(255, 255, 255, 0.2);"></image>
+</a>
+</body>
+</html>
